@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import AppDownload from "@/components/AppDownload";
 import ContactForm from "@/components/ContactForm";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
 
       {/* Séptima sección: Contacto y Generación de Leads */}
       <ContactForm />
+      <Footer />
     </div>
   );
 }
