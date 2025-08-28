@@ -17,7 +17,7 @@ export default function Features() {
           {/* Botones CTA */}
           <div className="flex flex-col sm:flex-row gap-4">
             <WhatsAppButton
-              phoneNumber="+528129095101"
+              phoneNumber="+528110137425"
               message="Hola, me interesa probar Tasker gratis"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium text-lg flex items-center gap-2 transition-colors duration-200"
             >
@@ -36,9 +36,13 @@ export default function Features() {
                 />
               </svg>
             </WhatsAppButton>
-            <button className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200 shadow-lg">
+            <WhatsAppButton
+              phoneNumber="+528110137425"
+              message="Hola, me interesa agenda una visita sin costo"
+              className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-8 py-4 rounded-full font-medium text-lg transition-colors duration-200 shadow-lg"
+            >
               Agenda una visita sin costo
-            </button>
+            </WhatsAppButton>
           </div>
 
           {/* Descripción */}

@@ -3,50 +3,52 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-white w-full">
-      <div className="px-4 sm:px-8 lg:px-16 py-12 w-full">
+      <div className="px-4 sm:px-8 lg:px-16 py-12 w-full mx-auto">
         {/* Sección Principal del Footer */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-16 mb-8">
           {/* Información de la Empresa */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                <div className="w-8 h-8 bg-blue-400 rounded-full"></div>
+          <div className="space-y-4 lg:col-span-2">
+            <div className="flex items-start gap-3">
+              <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
+                <Image
+                  src="/Simbolo.svg"
+                  alt="Tasker Solutions"
+                  width={150}
+                  height={150}
+                />
               </div>
-              <span className="text-xl font-semibold text-gray-900">
-                Tasker
-              </span>
+              <p className="text-gray-600 text-base max-w-xs">
+                Tasker Solutions es una agencia especializada en la gestión
+                remota de empleados y procesos.
+              </p>
             </div>
-            <p className="text-gray-600 text-sm leading-relaxed max-w-xs">
-              Tasker Solutions es una agencia especializada en la gestión remota
-              de empleados y procesos.
-            </p>
           </div>
 
           {/* Navegación */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900">Navegación</h3>
-            <div className="space-y-2">
+            <div className="flex flex-wrap gap-4">
               <a
                 href="#inicio"
-                className="block text-gray-600 hover:text-blue-600 transition-colors"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Inicio
               </a>
               <a
                 href="#producto"
-                className="block text-gray-600 hover:text-blue-600 transition-colors"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Producto
               </a>
               <a
                 href="#planes"
-                className="block text-gray-600 hover:text-blue-600 transition-colors"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Planes
               </a>
               <a
                 href="#contacto"
-                className="block text-gray-600 hover:text-blue-600 transition-colors"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
               >
                 Contacto
               </a>

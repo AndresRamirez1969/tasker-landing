@@ -60,7 +60,7 @@ export default function ContactForm() {
                 los siguientes medios:
               </p>
               <div className="space-y-2 text-gray-700">
-                <p className="font-medium">(+52) 044-8180284967</p>
+                <p className="font-medium">(+52) 81 1013 7425</p>
                 <p>México y Latinoamérica</p>
                 <p className="font-medium">jcardenas@tskr.mx</p>
               </div>

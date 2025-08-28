@@ -71,8 +71,8 @@ export default function Navbar() {
             <Image
               src="/Logotipo 2.svg"
               alt="Tasker Solutions"
-              width={200}
-              height={200}
+              width={250}
+              height={250}
             />
           </a>
         </div>
@@ -107,7 +107,7 @@ export default function Navbar() {
               e.preventDefault();
               scrollToSection("inicio");
             }}
-            className="text-sm/6 font-semibold text-gray-900"
+            className="text-lg/6 font-semibold text-gray-900"
           >
             Inicio
           </a>
@@ -118,7 +118,7 @@ export default function Navbar() {
               e.preventDefault();
               scrollToSection("producto");
             }}
-            className="text-sm/6 font-semibold text-gray-900"
+            className="text-lg/6 font-semibold text-gray-900"
           >
             Producto
           </a>
@@ -128,7 +128,7 @@ export default function Navbar() {
               e.preventDefault();
               scrollToSection("planes");
             }}
-            className="text-sm/6 font-semibold text-gray-900"
+            className="text-lg/6 font-semibold text-gray-900"
           >
             Planes
           </a>
@@ -138,15 +138,15 @@ export default function Navbar() {
               e.preventDefault();
               scrollToSection("contacto");
             }}
-            className="text-sm/6 font-semibold text-gray-900"
+            className="text-lg/6 font-semibold text-gray-900"
           >
             Contacto
           </a>
         </div>
         <div className="flex flex-1 justify-end">
-          <a href="#" className="text-sm/6 font-semibold text-blue-600">
+          <button className="px-4 py-2 text-sm/6 font-semibold text-blue-600 bg-white border border-blue-600 rounded-md hover:bg-blue-50 transition-colors">
             Iniciar sesión <span aria-hidden="true">&rarr;</span>
-          </a>
+          </button>
         </div>
       </nav>
 

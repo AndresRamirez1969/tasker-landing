@@ -1,4 +1,5 @@
 import Image from "next/image";
+import WhatsAppButton from "./WhatsApp";
 export default function Functionality() {
   return (
     <section className="px-4 sm:px-8 lg:px-16 py-16 bg-blue-900">
@@ -76,7 +77,11 @@ export default function Functionality() {
             </div>
 
             {/* Botón de Llamada a la Acción */}
-            <button className="border-2 border-blue-300 hover:border-blue-400 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium text-lg flex items-center gap-2 transition-colors duration-200 group">
+            <WhatsAppButton
+              phoneNumber="+528110137425"
+              message="Hola, me interesa probar Tasker"
+              className="border-2 border-blue-300 hover:border-blue-400 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium text-lg flex items-center gap-2 transition-colors duration-200 group"
+            >
               Contacto
               <svg
                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
@@ -91,7 +96,7 @@ export default function Functionality() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </button>
+            </WhatsAppButton>
           </div>
         </div>
       </div>
