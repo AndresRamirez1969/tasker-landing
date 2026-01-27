@@ -65,7 +65,15 @@ export default function Footer() {
             {/* Copyright */}
             <div className="text-sm text-gray-600">
               Copyright © 2025 Tasker Solutions Enterprise | Todos los derechos
-              reservados.
+              reservados. |{" "}
+              <a
+                href="/privacidad"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+              >
+                Política de Privacidad
+              </a>
             </div>
 
             {/* Redes Sociales */}
